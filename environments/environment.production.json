@@ -1,0 +1,21 @@
+{
+  "env": "production",
+  "logger": "winston",
+  "delaySart": 2000,
+  "config": {
+    "AllowCors": false,
+    "GracefullShutdown": true,
+    "VAULT": false,
+    "ServiceName": "worklightert-backend-prod",
+    "QUEUE": false
+  },
+  "vault": {
+    "configType": "",
+    "protocol": "http",
+    "host": "",
+    "port": 8080,
+    "login": "",
+    "keyname": "",
+    "apiversion": "v1"
+  }
+}

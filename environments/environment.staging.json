@@ -1,0 +1,21 @@
+{
+  "env": "staging",
+  "logger": "winston",
+  "delaySart": 2000,
+  "config": {
+    "AllowCors": true,
+    "GracefullShutdown": true,
+    "VAULT": false,
+    "ServiceName": "worklighter-backend-staging",
+    "QUEUE": false
+  },
+  "vault": {
+    "configType": "",
+    "protocol": "http",
+    "host": "",
+    "port": 8080,
+    "login": "",
+    "keyname": "",
+    "apiversion": "v1"
+  }
+}
